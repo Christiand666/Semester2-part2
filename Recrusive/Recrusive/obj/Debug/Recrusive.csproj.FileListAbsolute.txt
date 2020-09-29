@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\Recrusive\Recrusive\bin\Debug\Recrusive.exe.config
+C:\Users\chris\source\repos\Recrusive\Recrusive\bin\Debug\Recrusive.exe
+C:\Users\chris\source\repos\Recrusive\Recrusive\bin\Debug\Recrusive.pdb
+C:\Users\chris\source\repos\Recrusive\Recrusive\obj\Debug\Recrusive.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\Recrusive\Recrusive\obj\Debug\Recrusive.exe
+C:\Users\chris\source\repos\Recrusive\Recrusive\obj\Debug\Recrusive.pdb

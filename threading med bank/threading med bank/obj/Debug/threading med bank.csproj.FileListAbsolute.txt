@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\threading med bank\threading med bank\bin\Debug\threading med bank.exe.config
+C:\Users\chris\source\repos\threading med bank\threading med bank\bin\Debug\threading med bank.exe
+C:\Users\chris\source\repos\threading med bank\threading med bank\bin\Debug\threading med bank.pdb
+C:\Users\chris\source\repos\threading med bank\threading med bank\obj\Debug\threading med bank.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\threading med bank\threading med bank\obj\Debug\threading med bank.exe
+C:\Users\chris\source\repos\threading med bank\threading med bank\obj\Debug\threading med bank.pdb

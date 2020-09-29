@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\hob binary træ\hob binary træ\bin\Debug\hob binary træ.exe.config
+C:\Users\chris\source\repos\hob binary træ\hob binary træ\bin\Debug\hob binary træ.exe
+C:\Users\chris\source\repos\hob binary træ\hob binary træ\bin\Debug\hob binary træ.pdb
+C:\Users\chris\source\repos\hob binary træ\hob binary træ\obj\Debug\hob binary træ.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\hob binary træ\hob binary træ\obj\Debug\hob binary træ.exe
+C:\Users\chris\source\repos\hob binary træ\hob binary træ\obj\Debug\hob binary træ.pdb

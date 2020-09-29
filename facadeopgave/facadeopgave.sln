@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "facadeopgave", "facadeopgave\facadeopgave.csproj", "{BDD31B4D-0EEA-4D31-A08B-7D18634AA182}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD31B4D-0EEA-4D31-A08B-7D18634AA182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD31B4D-0EEA-4D31-A08B-7D18634AA182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD31B4D-0EEA-4D31-A08B-7D18634AA182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD31B4D-0EEA-4D31-A08B-7D18634AA182}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7FBD0A0-11F5-4AEE-8A56-D2285C3CEF01}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\Singleton omskrivning\Singleton omskrivning\bin\Debug\Singleton omskrivning.exe.config
+C:\Users\chris\source\repos\Singleton omskrivning\Singleton omskrivning\bin\Debug\Singleton omskrivning.exe
+C:\Users\chris\source\repos\Singleton omskrivning\Singleton omskrivning\bin\Debug\Singleton omskrivning.pdb
+C:\Users\chris\source\repos\Singleton omskrivning\Singleton omskrivning\obj\Debug\Singleton omskrivning.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\Singleton omskrivning\Singleton omskrivning\obj\Debug\Singleton omskrivning.exe
+C:\Users\chris\source\repos\Singleton omskrivning\Singleton omskrivning\obj\Debug\Singleton omskrivning.pdb

@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\Singletonprojekt1\Singletonprojekt1\bin\Debug\Singletonprojekt1.exe.config
+C:\Users\chris\source\repos\Singletonprojekt1\Singletonprojekt1\bin\Debug\Singletonprojekt1.exe
+C:\Users\chris\source\repos\Singletonprojekt1\Singletonprojekt1\bin\Debug\Singletonprojekt1.pdb
+C:\Users\chris\source\repos\Singletonprojekt1\Singletonprojekt1\obj\Debug\Singletonprojekt1.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\Singletonprojekt1\Singletonprojekt1\obj\Debug\Singletonprojekt1.exe
+C:\Users\chris\source\repos\Singletonprojekt1\Singletonprojekt1\obj\Debug\Singletonprojekt1.pdb

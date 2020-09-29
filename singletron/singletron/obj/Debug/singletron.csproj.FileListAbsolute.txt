@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\singletron\singletron\bin\Debug\singletron.exe.config
+C:\Users\chris\source\repos\singletron\singletron\bin\Debug\singletron.exe
+C:\Users\chris\source\repos\singletron\singletron\bin\Debug\singletron.pdb
+C:\Users\chris\source\repos\singletron\singletron\obj\Debug\singletron.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\singletron\singletron\obj\Debug\singletron.exe
+C:\Users\chris\source\repos\singletron\singletron\obj\Debug\singletron.pdb

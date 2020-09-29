@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\4.2-4.3 lavet sammen\4.2-4.3 lavet sammen\bin\Debug\4.2-4.3 lavet sammen.exe.config
+C:\Users\chris\source\repos\4.2-4.3 lavet sammen\4.2-4.3 lavet sammen\bin\Debug\4.2-4.3 lavet sammen.exe
+C:\Users\chris\source\repos\4.2-4.3 lavet sammen\4.2-4.3 lavet sammen\bin\Debug\4.2-4.3 lavet sammen.pdb
+C:\Users\chris\source\repos\4.2-4.3 lavet sammen\4.2-4.3 lavet sammen\obj\Debug\4.2-4.3 lavet sammen.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\4.2-4.3 lavet sammen\4.2-4.3 lavet sammen\obj\Debug\4.2-4.3 lavet sammen.exe
+C:\Users\chris\source\repos\4.2-4.3 lavet sammen\4.2-4.3 lavet sammen\obj\Debug\4.2-4.3 lavet sammen.pdb

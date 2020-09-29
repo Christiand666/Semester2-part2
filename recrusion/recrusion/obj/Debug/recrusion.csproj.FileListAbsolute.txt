@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\recrusion\recrusion\bin\Debug\recrusion.exe.config
+C:\Users\chris\source\repos\recrusion\recrusion\bin\Debug\recrusion.exe
+C:\Users\chris\source\repos\recrusion\recrusion\bin\Debug\recrusion.pdb
+C:\Users\chris\source\repos\recrusion\recrusion\obj\Debug\recrusion.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\recrusion\recrusion\obj\Debug\recrusion.exe
+C:\Users\chris\source\repos\recrusion\recrusion\obj\Debug\recrusion.pdb

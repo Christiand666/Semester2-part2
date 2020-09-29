@@ -1,0 +1,9 @@
+C:\Users\chris\source\repos\arkitektur-opgavemednordwind\arkitektur-opgavemednordwind\bin\Debug\arkitektur-opgavemednordwind.exe.config
+C:\Users\chris\source\repos\arkitektur-opgavemednordwind\arkitektur-opgavemednordwind\bin\Debug\arkitektur-opgavemednordwind.exe
+C:\Users\chris\source\repos\arkitektur-opgavemednordwind\arkitektur-opgavemednordwind\bin\Debug\arkitektur-opgavemednordwind.pdb
+C:\Users\chris\source\repos\arkitektur-opgavemednordwind\arkitektur-opgavemednordwind\obj\Debug\arkitektur-opgavemednordwind.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\arkitektur-opgavemednordwind\arkitektur-opgavemednordwind\obj\Debug\arkitektur_opgavemednordwind.Form1.resources
+C:\Users\chris\source\repos\arkitektur-opgavemednordwind\arkitektur-opgavemednordwind\obj\Debug\arkitektur_opgavemednordwind.Properties.Resources.resources
+C:\Users\chris\source\repos\arkitektur-opgavemednordwind\arkitektur-opgavemednordwind\obj\Debug\arkitektur-opgavemednordwind.csproj.GenerateResource.cache
+C:\Users\chris\source\repos\arkitektur-opgavemednordwind\arkitektur-opgavemednordwind\obj\Debug\arkitektur-opgavemednordwind.exe
+C:\Users\chris\source\repos\arkitektur-opgavemednordwind\arkitektur-opgavemednordwind\obj\Debug\arkitektur-opgavemednordwind.pdb

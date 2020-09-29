@@ -1,0 +1,6 @@
+C:\Users\Christian\source\repos\for sjov\for sjov\bin\Debug\for sjov.exe.config
+C:\Users\Christian\source\repos\for sjov\for sjov\bin\Debug\for sjov.exe
+C:\Users\Christian\source\repos\for sjov\for sjov\bin\Debug\for sjov.pdb
+C:\Users\Christian\source\repos\for sjov\for sjov\obj\Debug\for sjov.csprojAssemblyReference.cache
+C:\Users\Christian\source\repos\for sjov\for sjov\obj\Debug\for sjov.exe
+C:\Users\Christian\source\repos\for sjov\for sjov\obj\Debug\for sjov.pdb

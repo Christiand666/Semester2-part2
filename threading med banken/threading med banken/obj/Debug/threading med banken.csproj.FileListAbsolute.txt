@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\threading med banken\threading med banken\obj\Debug\threading med banken.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\threading med banken\threading med banken\bin\Debug\threading med banken.exe.config
+C:\Users\chris\source\repos\threading med banken\threading med banken\bin\Debug\threading med banken.exe
+C:\Users\chris\source\repos\threading med banken\threading med banken\bin\Debug\threading med banken.pdb
+C:\Users\chris\source\repos\threading med banken\threading med banken\obj\Debug\threading med banken.exe
+C:\Users\chris\source\repos\threading med banken\threading med banken\obj\Debug\threading med banken.pdb
