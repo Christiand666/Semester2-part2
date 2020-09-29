@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AdvokaterneEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cases" EntityType="DB.Case" />
+    <EntitySet Name="CaseServices" EntityType="DB.CaseService" />
+    <EntitySet Name="Clients" EntityType="DB.Client" />
+    <EntitySet Name="Educations" EntityType="DB.Education" />
+    <EntitySet Name="Employees" EntityType="DB.Employee" />
+    <EntitySet Name="Hours" EntityType="DB.Hour" />
+    <EntitySet Name="OrderLines" EntityType="DB.OrderLine" />
+    <EntitySet Name="Services" EntityType="DB.Service" />
+    <EntitySet Name="sysdiagrams" EntityType="DB.sysdiagram" />
+    <AssociationSet Name="FK_CaseService_Cases" Association="DB.FK_CaseService_Cases">
+      <End Role="Case" EntitySet="Cases" />
+      <End Role="CaseService" EntitySet="CaseServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderLine_Cases" Association="DB.FK_OrderLine_Cases">
+      <End Role="Case" EntitySet="Cases" />
+      <End Role="OrderLine" EntitySet="OrderLines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CaseService_Service" Association="DB.FK_CaseService_Service">
+      <End Role="Service" EntitySet="Services" />
+      <End Role="CaseService" EntitySet="CaseServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderLine_Clients" Association="DB.FK_OrderLine_Clients">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="OrderLine" EntitySet="OrderLines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Education_Employees" Association="DB.FK_Education_Employees">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Education" EntitySet="Educations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderLine_Employees" Association="DB.FK_OrderLine_Employees">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="OrderLine" EntitySet="OrderLines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Hours_Service" Association="DB.FK_Hours_Service">
+      <End Role="Service" EntitySet="Services" />
+      <End Role="Hour" EntitySet="Hours" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Case">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CaseServices" Relationship="DB.FK_CaseService_Cases" FromRole="Case" ToRole="CaseService" />
+    <NavigationProperty Name="OrderLines" Relationship="DB.FK_OrderLine_Cases" FromRole="Case" ToRole="OrderLine" />
+  </EntityType>
+  <EntityType Name="CaseService">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CaseID" Type="Int32" Nullable="false" />
+    <Property Name="ServiceID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Case" Relationship="DB.FK_CaseService_Cases" FromRole="CaseService" ToRole="Case" />
+    <NavigationProperty Name="Service" Relationship="DB.FK_CaseService_Service" FromRole="CaseService" ToRole="Service" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="fName" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="lName" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="CPR" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telephone" Type="Int32" />
+    <Property Name="Phone" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="OrderLines" Relationship="DB.FK_OrderLine_Clients" FromRole="Client" ToRole="OrderLine" />
+  </EntityType>
+  <EntityType Name="Education">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="EmployeeID" Type="Guid" Nullable="false" />
+    <Property Name="from" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="to" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EducationName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employee" Relationship="DB.FK_Education_Employees" FromRole="Education" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="fName" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="lName" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Special" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="Int32" Nullable="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Educations" Relationship="DB.FK_Education_Employees" FromRole="Employee" ToRole="Education" />
+    <NavigationProperty Name="OrderLines" Relationship="DB.FK_OrderLine_Employees" FromRole="Employee" ToRole="OrderLine" />
+  </EntityType>
+  <EntityType Name="Hour">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HoursSpent" Type="Int32" Nullable="false" />
+    <Property Name="HoursDriven" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Link" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Service" Relationship="DB.FK_Hours_Service" FromRole="Hour" ToRole="Service" />
+  </EntityType>
+  <EntityType Name="OrderLine">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Guid" Nullable="false" />
+    <Property Name="EmployeeID" Type="Guid" Nullable="false" />
+    <Property Name="CaseID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Case" Relationship="DB.FK_OrderLine_Cases" FromRole="OrderLine" ToRole="Case" />
+    <NavigationProperty Name="Client" Relationship="DB.FK_OrderLine_Clients" FromRole="OrderLine" ToRole="Client" />
+    <NavigationProperty Name="Employee" Relationship="DB.FK_OrderLine_Employees" FromRole="OrderLine" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <Property Name="isHourly" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="CaseServices" Relationship="DB.FK_CaseService_Service" FromRole="Service" ToRole="CaseService" />
+    <NavigationProperty Name="Hours" Relationship="DB.FK_Hours_Service" FromRole="Service" ToRole="Hour" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_CaseService_Cases">
+    <End Type="DB.Case" Role="Case" Multiplicity="1" />
+    <End Type="DB.CaseService" Role="CaseService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Case">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CaseService">
+        <PropertyRef Name="CaseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderLine_Cases">
+    <End Type="DB.Case" Role="Case" Multiplicity="1" />
+    <End Type="DB.OrderLine" Role="OrderLine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Case">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OrderLine">
+        <PropertyRef Name="CaseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CaseService_Service">
+    <End Type="DB.Service" Role="Service" Multiplicity="1" />
+    <End Type="DB.CaseService" Role="CaseService" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CaseService">
+        <PropertyRef Name="ServiceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderLine_Clients">
+    <End Type="DB.Client" Role="Client" Multiplicity="1" />
+    <End Type="DB.OrderLine" Role="OrderLine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OrderLine">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Education_Employees">
+    <End Type="DB.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="DB.Education" Role="Education" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Education">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderLine_Employees">
+    <End Type="DB.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="DB.OrderLine" Role="OrderLine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OrderLine">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Hours_Service">
+    <End Type="DB.Service" Role="Service" Multiplicity="1" />
+    <End Type="DB.Hour" Role="Hour" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Hour">
+        <PropertyRef Name="Link" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

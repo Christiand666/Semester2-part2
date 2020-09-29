@@ -4,3 +4,10 @@ C:\Users\chris\source\repos\Binary tree med visning\Binary tree med visning\bin\
 C:\Users\chris\source\repos\Binary tree med visning\Binary tree med visning\obj\Debug\Binary tree med visning.csprojAssemblyReference.cache
 C:\Users\chris\source\repos\Binary tree med visning\Binary tree med visning\obj\Debug\Binary tree med visning.exe
 C:\Users\chris\source\repos\Binary tree med visning\Binary tree med visning\obj\Debug\Binary tree med visning.pdb
+C:\Users\chris\source\repos\Semester2\Semester2\Binary tree med visning\Binary tree med visning\bin\Debug\Binary tree med visning.exe.config
+C:\Users\chris\source\repos\Semester2\Semester2\Binary tree med visning\Binary tree med visning\bin\Debug\Binary tree med visning.exe
+C:\Users\chris\source\repos\Semester2\Semester2\Binary tree med visning\Binary tree med visning\bin\Debug\Binary tree med visning.pdb
+C:\Users\chris\source\repos\Semester2\Semester2\Binary tree med visning\Binary tree med visning\obj\Debug\Binary tree med visning.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\Semester2\Semester2\Binary tree med visning\Binary tree med visning\obj\Debug\Binary tree med visning.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\Semester2\Semester2\Binary tree med visning\Binary tree med visning\obj\Debug\Binary tree med visning.exe
+C:\Users\chris\source\repos\Semester2\Semester2\Binary tree med visning\Binary tree med visning\obj\Debug\Binary tree med visning.pdb

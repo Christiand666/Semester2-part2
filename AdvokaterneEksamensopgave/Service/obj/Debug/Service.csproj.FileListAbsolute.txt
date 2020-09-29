@@ -1,0 +1,44 @@
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\Service.dll
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\Service.pdb
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\DB.dll
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.dll
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\DB.pdb
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\DB.dll.config
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.xml
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\obj\Debug\Service.dll
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\obj\Debug\Service.pdb
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\Service.dll.config
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\toppe\Documents\GitHub\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\Service.dll.config
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\Service.dll
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\Service.pdb
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\DB.dll
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.dll
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\DB.pdb
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\DB.dll.config
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.xml
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\obj\Debug\Service.dll
+C:\Users\chris\source\repos\binary key\Advokaterne\Advokaterne\Service\obj\Debug\Service.pdb
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\Service.dll.config
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\Service.dll
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\Service.pdb
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\DB.dll
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.dll
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\DB.pdb
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\DB.dll.config
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.xml
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\obj\Debug\Service.dll
+C:\Users\dotax\OneDrive\Skrivebord\Github\Advokaterne\Advokaterne\Service\obj\Debug\Service.pdb

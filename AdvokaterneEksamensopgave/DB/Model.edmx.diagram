@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bce512b84056441288c6c593f7dfdc11" Name="Diagram1">
+        <EntityTypeShape EntityType="DB.Case" Width="1.5" PointX="0.75" PointY="8" />
+        <EntityTypeShape EntityType="DB.CaseService" Width="1.5" PointX="8" PointY="4.125" />
+        <EntityTypeShape EntityType="DB.Client" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DB.Education" Width="1.5" PointX="3" PointY="7.375" />
+        <EntityTypeShape EntityType="DB.Employee" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="DB.Hour" Width="1.5" PointX="8" PointY="6.875" />
+        <EntityTypeShape EntityType="DB.OrderLine" Width="1.5" PointX="3" PointY="4.25" />
+        <EntityTypeShape EntityType="DB.Service" Width="1.5" PointX="5.75" PointY="4.125" />
+        <EntityTypeShape EntityType="DB.sysdiagram" Width="1.5" PointX="2.75" PointY="10.375" />
+        <AssociationConnector Association="DB.FK_CaseService_Cases" />
+        <AssociationConnector Association="DB.FK_OrderLine_Cases" />
+        <AssociationConnector Association="DB.FK_CaseService_Service" />
+        <AssociationConnector Association="DB.FK_OrderLine_Clients" />
+        <AssociationConnector Association="DB.FK_Education_Employees" />
+        <AssociationConnector Association="DB.FK_OrderLine_Employees" />
+        <AssociationConnector Association="DB.FK_Hours_Service" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
